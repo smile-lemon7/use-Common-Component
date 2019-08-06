@@ -1,4 +1,5 @@
 import styles from './index.css';
+import { TestCommonComponent } from '@/components/Common/src/index';
 
 
 export default function() {
@@ -13,6 +14,7 @@ export default function() {
           </a>
         </li>
       </ul>
+      <TestCommonComponent />
     </div>
   );
 }
